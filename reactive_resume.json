@@ -1,0 +1,472 @@
+{
+  "basics": {
+    "name": "Abhinav Kumar",
+    "headline": "",
+    "email": "Abhinav.Kumar@iiitb.ac.in",
+    "phone": "+916203642937",
+    "location": "Bangalore",
+    "url": {
+      "label": "",
+      "href": ""
+    },
+    "customFields": [],
+    "picture": {
+      "url": "",
+      "size": 64,
+      "aspectRatio": 1,
+      "borderRadius": 0,
+      "effects": {
+        "hidden": false,
+        "border": false,
+        "grayscale": false
+      }
+    }
+  },
+  "sections": {
+    "summary": {
+      "name": "Summary",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "summary",
+      "content": ""
+    },
+    "awards": {
+      "name": "Awards",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "awards",
+      "items": []
+    },
+    "certifications": {
+      "name": "Certifications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "certifications",
+      "items": []
+    },
+    "education": {
+      "name": "Education",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "education",
+      "items": [
+        {
+          "id": "qsozq86z06adui3ehcwdnuy1",
+          "visible": true,
+          "institution": "International Institute of Information Technology, Bangalore",
+          "studyType": "Integrated Masters of Technology",
+          "area": "Computer Science",
+          "score": "3.34/4",
+          "date": "Aug. 2022 - July 2027",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "experience": {
+      "name": "Experience",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "experience",
+      "items": []
+    },
+    "volunteer": {
+      "name": "Volunteering",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "volunteer",
+      "items": []
+    },
+    "interests": {
+      "name": "Interests",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "interests",
+      "items": []
+    },
+    "languages": {
+      "name": "Languages",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "languages",
+      "items": []
+    },
+    "profiles": {
+      "name": "Profiles",
+      "columns": 3,
+      "separateLinks": true,
+      "visible": true,
+      "id": "profiles",
+      "items": [
+        {
+          "id": "tthl2o4kr9tndukxfujjquqd",
+          "visible": true,
+          "network": "github",
+          "username": "Abhinav-Kumar012",
+          "icon": "github",
+          "url": {
+            "label": "",
+            "href": "https://github.com/Abhinav-Kumar012"
+          }
+        },
+        {
+          "id": "grau17fqrrw158c2tsceoib7",
+          "visible": true,
+          "network": "Linkedin",
+          "username": "abhinav-kr007",
+          "icon": "linkedin",
+          "url": {
+            "label": "",
+            "href": "https://www.linkedin.com/in/abhinav-kr007"
+          }
+        }
+      ]
+    },
+    "projects": {
+      "name": "Projects",
+      "columns": 1,
+      "separateLinks": false,
+      "visible": true,
+      "id": "projects",
+      "items": [
+        {
+          "id": "atszs78zop8l0ywnjbq2pslh",
+          "visible": true,
+          "name": "HetroSync",
+          "description": "",
+          "date": "April 2025",
+          "summary": "<ul><li><p>Engineered a data synchronization system across heterogeneous databases by implementing custom GET, SET, and MERGE operations with structured operation logs, enabling reliable state convergence.</p></li><li><p>Designed and developed an abstract merge method to synchronize system states using oplogs, ensuring consistency without direct cross-system access, and incorporated mathematical properties like associativity and idempotency.</p></li><li><p>Developed dual execution modes - an interactive CLI for real-time user commands and a test case mode for batch processing via input files using a robust command parser to simulate and validate synchronization and merge operations across systems.</p></li></ul>",
+          "keywords": [
+            "Java",
+            "Python",
+            "MongoDB",
+            "PostgreSQL",
+            "Hive"
+          ],
+          "url": {
+            "label": "",
+            "href": "https://github.com/Abhinav-Kumar012/Hetrosync"
+          }
+        },
+        {
+          "id": "d4bzbic7ptneqcu4ascem51m",
+          "visible": true,
+          "name": "Neural Machine Translation",
+          "description": "",
+          "date": "April 2025",
+          "summary": "<ul><li><p>Developed a full-fledged English-to-Hindi audio translation pipeline integrating speech recognition, neural machine translation, and text-to-speech synthesis, aimed at improving accessibility of educational video content for non-native English speakers.</p></li></ul><ul><li><p>Implemented and evaluated two deep learning architectures for neural machine translation — a baseline LSTM-based Seq2Seq model and an advanced Transformer model trained on IIT Bombay and TED Talks parallel corpora. The Transformer model achieved a BLEU-1 score of 61.7\\% and BLEU-4 of 34.0\\%, producing highly accurate and fluent Hindi translations.</p></li></ul><ul><li><p>Integrated audio extraction, punctuation restoration, translation, and audio synchronization into a unified pipeline using ffmpeg, Google Speech Recognition API, Hugging Face TTS models, and custom alignment logic to produce contextually accurate, time-aligned Hindi-dubbed videos.</p></li></ul>",
+          "keywords": [
+            "Python",
+            "Pytorch",
+            "Keras"
+          ],
+          "url": {
+            "label": "",
+            "href": "https://github.com/Abhinav-Kumar012/Neural-Machine-Translation"
+          }
+        },
+        {
+          "id": "l9542h5do457paa87x9vrlde",
+          "visible": true,
+          "name": "OLMS",
+          "description": "",
+          "date": "May 2024",
+          "summary": "<ul><li><p>Engineered OLMS with robust user authentication and password-protected administrative access, ensuring secure handling of library operations.</p></li></ul><ul><li><p>Designed functionalities for administrators to add, delete, modify, and search books, as well as manage user accounts, enhancing the efficiency of library resource management. </p></li></ul><ul><li><p>Incorporated robust logging mechanisms alongside system calls for file handling, multithreading, and socket programming to enable concurrent client access, ensuring data consistency, high performance, and comprehensive activity tracking in OLMS.</p></li></ul><p></p>",
+          "keywords": [
+            "C",
+            "Linux"
+          ],
+          "url": {
+            "label": "",
+            "href": "https://github.com/Abhinav-Kumar012/olms"
+          }
+        },
+        {
+          "id": "km8u7mrqtdqu7ob0aghfxdx4",
+          "visible": true,
+          "name": "MIPS Processor Simulator",
+          "description": "",
+          "date": "November 2023",
+          "summary": "<ul><li><p>Built a custom MIPS assembler to convert assembly code into machine code by parsing pseudo and basic instructions, resolving labels, and generating binary outputs.</p></li><li><p>Simulated pipelined and non-pipelined processor datapaths with full support for IF, ID, EX, MEM, and WB stages, including hazard detection, forwarding, and stall logic.</p></li><li><p>Implemented sorting and Fibonacci algorithms in MIPS assembly and verified correctness through a Python-based output validation system using MARS reference results.</p></li></ul>",
+          "keywords": [
+            "Python"
+          ],
+          "url": {
+            "label": "",
+            "href": "https://github.com/Abhinav-Kumar012/Computer_Architecture"
+          }
+        }
+      ]
+    },
+    "publications": {
+      "name": "Publications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "publications",
+      "items": []
+    },
+    "references": {
+      "name": "References",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "references",
+      "items": []
+    },
+    "skills": {
+      "name": "Skills",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "skills",
+      "items": [
+        {
+          "id": "m0zz79mje0pjcbnunhaecerr",
+          "visible": true,
+          "name": "Languages",
+          "description": "",
+          "level": 1,
+          "keywords": [
+            "Python",
+            "Java",
+            "C",
+            "C++"
+          ]
+        },
+        {
+          "id": "ciz767dk2id4plikwhwhr33y",
+          "visible": true,
+          "name": "Tools",
+          "description": "",
+          "level": 1,
+          "keywords": [
+            "Linux",
+            "GitHub",
+            "MySQL",
+            "MongoDB",
+            "PostgreSQL",
+            "Hive",
+            "Pig",
+            "Hadoop"
+          ]
+        },
+        {
+          "id": "b856sm6oc6j0sxa36565b5xf",
+          "visible": true,
+          "name": "Frameworks",
+          "description": "",
+          "level": 1,
+          "keywords": [
+            "Pytorch",
+            "Keras"
+          ]
+        }
+      ]
+    },
+    "custom": {
+      "iozc6ir01va6nsbu4yvl8644": {
+        "name": "Relevant Coursework",
+        "columns": 3,
+        "separateLinks": true,
+        "visible": true,
+        "id": "iozc6ir01va6nsbu4yvl8644",
+        "items": [
+          {
+            "id": "trhilfxb916kqlaaldd9gqy4",
+            "visible": true,
+            "name": "Data Structures",
+            "description": "",
+            "date": "",
+            "location": "",
+            "summary": "<p></p>",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": ""
+            }
+          },
+          {
+            "id": "z0wdshkyw2ld8yzl2vimsw3r",
+            "visible": true,
+            "name": "Database Management",
+            "description": "",
+            "date": "",
+            "location": "",
+            "summary": "",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": ""
+            }
+          },
+          {
+            "id": "ye5io3qe2bhbpq6ijt7td724",
+            "visible": true,
+            "name": "NoSQL Systems",
+            "description": "",
+            "date": "",
+            "location": "",
+            "summary": "",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": ""
+            }
+          },
+          {
+            "id": "eur58mhbm8j8pgwx5bh87awo",
+            "visible": true,
+            "name": "Machine Learning",
+            "description": "",
+            "date": "",
+            "location": "",
+            "summary": "",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": ""
+            }
+          },
+          {
+            "id": "euntuf020gd2sh2racx6s5r7",
+            "visible": true,
+            "name": "Computer Networks",
+            "description": "",
+            "date": "",
+            "location": "",
+            "summary": "",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": ""
+            }
+          },
+          {
+            "id": "tgic3vhqig3e0s338zocws9u",
+            "visible": true,
+            "name": "Software Engineering",
+            "description": "",
+            "date": "",
+            "location": "",
+            "summary": "",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": ""
+            }
+          },
+          {
+            "id": "l8ylnzp2y0wy0fni0bplgyu9",
+            "visible": true,
+            "name": "Computer Architecture",
+            "description": "",
+            "date": "",
+            "location": "",
+            "summary": "",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": ""
+            }
+          },
+          {
+            "id": "jghhhou9k3c8dwo54b8lulbw",
+            "visible": true,
+            "name": "Natural Language Processing",
+            "description": "",
+            "date": "",
+            "location": "",
+            "summary": "",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": ""
+            }
+          },
+          {
+            "id": "c09j8c6c3cppffg3yoync1z4",
+            "visible": true,
+            "name": "Operating System",
+            "description": "",
+            "date": "",
+            "location": "",
+            "summary": "",
+            "keywords": [],
+            "url": {
+              "label": "",
+              "href": ""
+            }
+          }
+        ]
+      }
+    }
+  },
+  "metadata": {
+    "template": "kakuna",
+    "layout": [
+      [
+        [
+          "profiles",
+          "summary",
+          "experience",
+          "education",
+          "projects",
+          "volunteer",
+          "references",
+          "custom.iozc6ir01va6nsbu4yvl8644"
+        ],
+        [
+          "skills",
+          "interests",
+          "certifications",
+          "awards",
+          "publications",
+          "languages"
+        ]
+      ]
+    ],
+    "css": {
+      "value": "* {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+      "visible": false
+    },
+    "page": {
+      "margin": 18,
+      "format": "a4",
+      "options": {
+        "breakLine": true,
+        "pageNumbers": false
+      }
+    },
+    "theme": {
+      "background": "#ffffff",
+      "text": "#000000",
+      "primary": "#dc2626"
+    },
+    "typography": {
+      "font": {
+        "family": "IBM Plex Serif",
+        "subset": "latin",
+        "variants": [
+          "regular"
+        ],
+        "size": 14
+      },
+      "lineHeight": 1.5,
+      "hideIcons": false,
+      "underlineLinks": true
+    },
+    "notes": ""
+  }
+}
