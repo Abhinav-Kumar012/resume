@@ -1,0 +1,294 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+% incomplete will complete
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Abhinav Kumar} \\ \vspace{1pt}
+    International Institute of Information Technology, Bangalore \\ \vspace{1pt}
+    \small \href{tel:+916203642937}{\raisebox{-0.1\height}\faPhone\ 6203642937} ~ 
+    \href{mailto:Abhinav.Kumar@iiitb.ac.in}{\raisebox{-0.2\height}\faEnvelope\  \underline{Abhinav.Kumar@iiitb.ac.in}} ~
+    \href{https://www.linkedin.com/in/abhinav-kr007/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/abhinav-kr007}} ~ 
+    \href{https://github.com/Abhinav-Kumar012}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/Abhinav-Kumar012}} 
+    % \\
+    % \href{https://cyclic-stellar-transport.glitch.me/}{\raisebox{-0.2\height}\faGlobe\ \underline{cyclic-stellar-transport.glitch.me}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {International Institute of Information Technology, Bangalore}{Aug. 2022 -- July 2027}
+      {Integrated Masters of Technology in Computer Science}{3.34/4}
+  \resumeSubHeadingListEnd
+
+
+
+%-----------EXPERIENCE-----------
+% \section{Experience}
+%   \resumeSubHeadingListStart
+
+%     \resumeSubheading
+%       {Electronics Company}{May 2020 -- August 2020}
+%       {Software Engineer Intern}{City, State}
+%       \resumeItemListStart
+%         \resumeItem{Developed a service to automatically perform a set of unit tests daily on a product in development in order to decrease time needed for team members to identify and fix bugs/issues.}
+%         \resumeItem{Incorporated scripts using Python and PowerShell to aggregate XML test results into an organized format and to load the latest build code onto the hardware, so that daily testing can be performed.}
+%         \resumeItem{Utilized Jenkins to provide a continuous integration service in order to automate the entire process of loading the latest build code and test files, running the tests, and generating a report of the results once per day.}
+%         \resumeItem{Explored ways to visualize and send a daily report of test results to team members  using HTML, Javascript, and CSS.}
+%       \resumeItemListEnd
+    
+%   \resumeSubHeadingListEnd
+% \vspace{-16pt}
+
+
+
+%-----------MENTORSHIP/TEACHING ASSISTANCE-----------
+% \section{Mentorship }
+%   \resumeSubHeadingListStart
+
+%     \resumeSubheading
+%       {Teaching Assistant}{May 2020 -- August 2020}{Operating Systems}
+%       {IIIT Bangalore}
+%       \resumeItemListStart
+%         \resumeItem{Interactive teaching sessions with students on various topics in the operating systems.}
+    
+%       \resumeItemListEnd
+
+  
+    
+%   \resumeSubHeadingListEnd
+% \vspace{-16pt}
+
+
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    
+      \resumeProjectHeading
+          {\href{https://github.com/Abhinav-Kumar012/Hetrosync}{\textbf{HetroSync} $|$ \emph{Java, Python, MongoDB, PostgreSQL, Hive}}}{April 2025}
+          \resumeItemListStart
+            \resumeItem{Engineered a data synchronization system across heterogeneous databases by implementing custom GET, SET, and MERGE operations with structured operation logs, enabling reliable state convergence.}
+            \resumeItem{Formulated an abstract merge method to synchronize system states using oplogs, ensuring consistency without direct cross-system access, and incorporated mathematical properties like associativity and idempotency.}
+            \resumeItem{Built dual execution modes - an interactive CLI for real-time user commands and a test case mode for batch processing via input files using a robust command parser to simulate and validate synchronization and merge operations across systems.}
+          \resumeItemListEnd 
+      \vspace{-13pt}
+      
+       \resumeProjectHeading
+          {\href{https://github.com/Abhinav-Kumar012/Neural-Machine-Translation}{\textbf{Neural Machine Translation} $|$ \emph{Python, Pytorch, Keras}}}{April 2025}
+          \resumeItemListStart
+            \resumeItem{Constructed a full-fledged English-to-Hindi audio translation pipeline integrating speech recognition, neural machine translation, and text-to-speech synthesis, aimed at improving accessibility of educational video content for non-native English speakers.}
+            \resumeItem{Implemented and evaluated two deep learning architectures for neural machine translation — a baseline LSTM-based Seq2Seq model and an advanced Transformer model trained on IIT Bombay and TED Talks parallel corpora. The Transformer model achieved a BLEU-1 score of 61.7\% and BLEU-4 of 34.0\%, producing highly accurate and fluent Hindi translations.}
+            \resumeItem{Integrated audio extraction, punctuation restoration, translation, and audio synchronization into a unified pipeline using ffmpeg, Google Speech Recognition API, Hugging Face TTS models, and custom alignment logic to produce contextually accurate, time-aligned Hindi-dubbed videos.}
+          \resumeItemListEnd 
+      \vspace{-13pt}
+      
+      \resumeProjectHeading
+          {\href{https://github.com/Abhinav-Kumar012/olms}{\textbf{OLMS} $|$ \emph{C, Linux}}}{May 2024}
+          \resumeItemListStart
+            \resumeItem{Developed OLMS with robust user authentication and password-protected administrative access, ensuring secure handling of library operations.}
+            \resumeItem{Implemented functionalities for administrators to add, delete, modify, and search books, as well as manage user accounts, enhancing the efficiency of library resource management. }
+            \resumeItem{Incorporated robust logging mechanisms alongside system calls for file handling, multithreading, and socket programming to enable concurrent client access, ensuring data consistency, high performance, and comprehensive activity tracking in OLMS.}
+          \resumeItemListEnd 
+      \vspace{-13pt}
+    
+      \resumeProjectHeading{
+      \href{https://github.com/Abhinav-Kumar012/Computer_Architecture}{\textbf{MIPS Processor Simulator} $|$ \emph{Python}}}{November 2023}
+        \resumeItemListStart
+          \resumeItem{Built a custom MIPS assembler to convert assembly code into machine code by parsing pseudo and basic instructions, resolving labels, and generating binary outputs.}
+          \resumeItem{Simulated pipelined and non-pipelined processor datapaths with full support for IF, ID, EX, MEM, and WB stages, including hazard detection, forwarding, and stall logic.}
+          \resumeItem{Wrote sorting and Fibonacci algorithms in MIPS assembly and verified correctness through a Python-based output validation system using MARS reference results.}
+        \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+
+%-----------PUBLICATIONS-------
+
+% \section{Publications}
+%     \vspace{-5pt}
+%     \resumeSubHeadingListStart
+  
+%       \resumeProjectHeading
+%           {\textbf{ HybridLSTM for NIFTY50 prediction using global indices and technical indicators} }{November 2021}
+%           \resumeItemListStart
+%             \resumeItem{ Accepted to 12th IEEE
+%             International Conference on Computing, Communication and Networking Technologies (ICCCNT), 2021.}
+          
+%           \resumeItemListEnd 
+%     \resumeItemListEnd
+%           \vspace{-13pt}
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={},itemsep=-1pt]
+     \item \small{\textbf{Languages:}{ Python, Java, C, C++ }}
+     \item \small{\textbf{Tools:}{ Linux, GitHub, MySQL, MongoDB, PostgreSQL, Hive, Pig, Hadoop }}
+     \item \small{\textbf{Frameworks:}{ Pytorch, Keras }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{3}
+            \begin{itemize}[itemsep=-5pt, parsep=3pt]
+                \item Data Structures
+                \item Database Management
+                \item NoSQL Systems
+                \item Machine Learning
+                \item Natural Language Processing
+                \item Computer Networks
+                \item Software Engineering
+                \item Computer Architecture
+                \item Operating System
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+% %-----------INVOLVEMENT---------------
+% \section{Leadership / Extracurricular}
+%     \resumeSubHeadingListStart
+%         \resumeSubheading{Fraternity}{Spring 2020 -- Present}{President}{University Name}
+%             \resumeItemListStart
+%                 \resumeItem{Achieved a 4 star fraternity ranking by the Office of Fraternity and Sorority Affairs (highest possible ranking).}
+%                 \resumeItem{Managed executive board of 5 members and ran weekly meetings to oversee progress in essential parts of the chapter.}
+%                 \resumeItem{Led chapter of 30+ members to work towards goals that improve and promote community service, academics, and unity.}
+%             \resumeItemListEnd
+        
+%     \resumeSubHeadingListEnd
+
+
+\end{document}
